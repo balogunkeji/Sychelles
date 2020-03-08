@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before{
+			padding: 0;
+			margin: 0;
+        }
+        
+        html{
+            font-size: 10px;
+        }
+
+		body{
+            box-sizing: content-box;
+        }
+        
+        header{
+            padding-top: 2rem;
+            height: 100vh;
+            width: 100vw;
+			margin:0 auto;
+			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/seychelles.jpeg"); 
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+        }
+
+		nav{
+			margin-left: 25rem;
+			margin-right: 10rem;
+		}
+	
+		nav ul{
+			display: grid;
+			grid-template-columns: 6rem 1fr 1fr 6rem 6rem;
+			list-style-type: none;
+			border-bottom: 2px solid rgba(255, 255,255, 0.3);
+			padding-bottom: 15px;
+			font-size: 1.8rem;
+			text-transform: capitalize;
+		}
+
+		.camp{
+			font-size: 2rem;
+			font-weight: 200;
+		}
+
+		ul a{
+			text-decoration: none;
+			color: white;
+		}
+
+		h1{
+			text-transform: capitalize;
+			text-align: center;
+			font-size: 6.5rem;
+			font-weight: 700;
+			margin-top: 180px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			color: whitesmoke;
+		}
+
+		p{
+			text-transform: capitalize;
+			text-align: center;
+			color: whitesmoke;
+			margin-left: 250px;
+			padding-top: 0;
+			font-size: 2rem;
+        }
+        
+        @media screen and (max-width: 992px) {
+            nav {
+                margin-left: auto;
+			    margin-right: auto;
+            }
+
+            nav ul{
+                display: grid;
+                grid-template-columns: 6rem 1fr 1fr 6rem 6rem;
+                list-style-type: none;
+                border-bottom: 2px solid rgba(255, 255,255, 0.3);
+                padding-bottom: 10px;
+                font-size: 1.7rem;
+                text-transform: capitalize;
+           }
+
+                header{
+                    padding-top: 2rem;
+                    height: 100vh;
+                    width: 100vw;
+                    margin: 0 auto;
+                    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/seychelles.jpeg"); 
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+				}
+				
+				h1{
+					font-size: 5rem;
+				}
+
+            
+            }
